@@ -1,0 +1,88 @@
+@font-face {
+    font-family:Shekasteh ;
+    src: url(/fonts/Shekasteh\ V2.001.ttf);
+}
+@font-face {
+    font-family: dima ;
+    src: url(/fonts/IranNastaliq_1.ttf);
+}
+.besmelah{
+    margin: 0;
+    font-family: shekasteh;
+    font-size: 50px;
+}
+.font{
+    font-family: dima;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.paragraph{
+    font-family: dima;
+    font-size: 25px;
+    margin: 0;
+}
+.p{
+    margin: 0;
+}
+
+body{
+    margin: 1rem;
+    box-sizing: border-box;
+}
+.main{
+    background: rgba(255, 142, 142, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(219, 14, 14, 0.1);
+margin-top: 1rem;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    
+
+    
+    background: rgba(24, 219, 14, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(24, 219, 14, 0.1);
+margin-top: 1rem;
+}
+.img{
+    width: 183px;
+    height: 275px;
+    border: 0 solid;
+    border-radius: 10%;
+    box-shadow: 0 4px 30px rgba(19, 155, 179, 0.1);
+}
+.navbar{
+    background-color: rgb(0, 80, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* From https://css.glass */
+background: rgba(0, 111, 139, 0.16);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(19, 155, 179, 0.1);
+backdrop-filter: blur(5.4px);
+-webkit-backdrop-filter: blur(5.4px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.slider { width: 200px;
+     height: 300px;
+      display: flex;
+       overflow-x: auto;
+       -webkit-overflow-scrolling: touch; }
+.slide { width: 200px;
+     flex-shrink: 0;
+      height: 100%; }
+      .p-main{
+          margin: 1rem;
+      }
